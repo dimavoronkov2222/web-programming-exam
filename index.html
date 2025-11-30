@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бази Даних</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-section {
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+<header id="home">
+    <div class="navbar">
+        <div class="logo">
+            <span style="margin-right: 10px;">🗄️</span> Бази Даних
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="questions.html">Матеріали</a></li>
+                <li><a href="products.html">Огляд СУБД</a></li>
+                <li><a href="about.html">Про нас</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="hero-section">
+    <h1>Системи Управління Базами Даних</h1>
+    <p>Навчально-інформаційний ресурс</p>
+    <a href="questions.html" class="btn">Перейти до змісту</a>
+</div>
+<section class="container">
+    <h2>Розділи</h2>
+    <div class="cards-wrapper">
+        <a href="questions.html#part1" class="card">
+            <span class="emoji-icon">📚</span>
+            <h3>1. Основи</h3>
+            <p>Поняття БД, СУБД та ACID.</p>
+        </a>
+        <a href="questions.html#part2" class="card">
+            <span class="emoji-icon">⚖️</span>
+            <h3>2. Класифікація</h3>
+            <p>SQL проти NoSQL рішень.</p>
+        </a>
+        <a href="questions.html#part3" class="card">
+            <span class="emoji-icon">💻</span>
+            <h3>3. Мова SQL</h3>
+            <p>Основні команди та запити.</p>
+        </a>
+    </div>
+</section>
+<section id="test" class="container" style="background: #f4f4f4; border-top: 1px solid #ddd; margin-top: 40px;">
+    <h2>Перевірка знань</h2>
+    <div style="text-align: center;">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQS5uE60dXNmSe2BRJP0pDzTOIskH8N5O7RwWaiIsy_4MZ0g/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0" style="max-width: 100%; border: 1px solid #ccc; background: white; border-radius: 8px;">Завантаження...</iframe>
+    </div>
+</section>
+<footer id="feedback">
+    <h2>Зворотній зв'язок</h2>
+    <form action="#">
+        <input type="text" placeholder="Ім'я" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Повідомлення"></textarea>
+        <button type="submit" class="btn">Надіслати</button>
+    </form>
+    <p style="margin-top: 20px; font-size: 0.8rem; color: #777;">© 2023 Практика з Web-програмування</p>
+</footer>
+</body>
+</html>
